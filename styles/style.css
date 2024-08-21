@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.shape{
+    font-family: "Satisfy", cursive;
+}
+.btn-praimay{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 5px 10px;
+    color: white;
+    border: none;
+}
+
+.header-container{
+    max-width: 100%;
+    background: linear-gradient(0.00deg, rgb(2, 2, 2),rgba(2, 2, 2, 0.932) 100%);
+    margin: 0 auto;
+   
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 20px;
+}
+.logo{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 900px;
+    font-style: italic;
+
+}
+.options ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.options ul li{
+    color: white;
+}
+
+.header-content-area{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+.header-img{
+ width: 50%;
+ height: 50%;
+ 
+
+}
+.header-content{
+width: 50%;
+}
+.header-img img{
+    display: block;
+    width: 70%;
+    margin-left: 12vw;
+    position: relative;
+    
+}
+.header-content h3{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 5vw;
+
+text-align: left;
+}
+
+.header-content p{
+    color: white;
+    padding: 10px;
+    font-size: 1.2vw;
+}
+.header-btn{
+    display: flex;
+    gap: 2vw;
+}
+.btn-header2{
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+}
+.btn-header2, .btn-header1{
+    padding: 10px 20px;
+    font-size: 1.2vw;
+}
+.flash-box1, .flash-box2{
+    height: 7vw;
+    width: 14.6vw;
+    background-color: rgba(201, 200, 200, 0.233);
+    border-radius: .8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.circle-shape{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:rgb(230, 83, 60);
+}
+.flash-box1, .flash-box2 p{
+    
+    font-size: 0.8vw;
+   color: rgba(239, 237, 232, 0.65);
+}
+.free-woekout{
+    font-size: 3vw;
+    font-weight: 900px;
+    color: white;
+}
+.flash-box2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 2%;
+    left:55%;
+   cursor: pointer;
+}
+.flash-box1{
+    position: absolute;
+         top: 60%;
+        right:5%;
+        cursor: pointer;
+    
+}
+.flash-box1 p{
+    margin-left:25%;
+}
+.flash-box2 .videotutorial{
+    font-size: 2.5vw;
+    columns: red;
+    color: white;
+}
+
+
+
+
+
+.main-container{
+    max-width: 100%;
+    /* background-color:rgb(0, 0, 0); */
+    margin-top: -20px;
+}
+
+.Change-Your-Habits{
+    width: 80%;
+    margin: 0px auto 0px;
+    border: 2px red solid;
+}
+.habit-content{
+    margin-top: 100px;
+}
